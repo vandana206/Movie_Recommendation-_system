@@ -51,6 +51,12 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
 ## 👥 Usage
 
 *   Launch the app.
-*   Select a movie from the styled dropdown menu.
+*   **Select a Movie**: Choose a reference movie from the dropdown menu (e.g., "Avatar").
+*   **Apply Filters (Optional)**:
+    *   **Genre**: Select a specific genre (e.g., Action, Comedy) to narrow down results.
+*   **Choose Sorting Preference**:
+    *   **Match Confidence**: Best mathematical match.
+    *   **High Rating**: Top-rated movies.
+    *   **Newest Release**: Most recent movies.
 *   Click **"Find Similar Movies"**.
 *   Enjoy the curated list of similar movies displayed with their official posters, ratings, and cast names.
