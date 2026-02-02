@@ -4,7 +4,7 @@ The **Smart Movie Recommender System** is an end-to-end AI/ML based web applicat
 
 The project involves parsing a public movie dataset (TMDB), extracting rich text features (overview, genres, keywords, cast, crew) using NLP, and computing movie similarity via Cosine Similarity. The final model is deployed on a sleek Streamlit web interface that features a minimalist design, custom styling, and interactive elements.
 
-## ✨ Features
+## Features
 
 *   **Smart Recommendations**: tailored movie suggestions using Cosine Similarity.
 *   **Advanced Filtering & Sorting**:
@@ -18,7 +18,7 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
     *   **Cast Info**: See top actors/actresses for every recommendation.
     *   **Ratings**: View the IMDB/TMDB rating for each film.
 
-## 🛠 Tech Stack
+## Tech Stack
 
 *   **Python**: Core logic.
 *   **Pandas & NumPy**: Data manipulation.
@@ -26,7 +26,7 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
 *   **Streamlit**: Web framework (with custom CSS injection).
 *   **TMDB API**: Movie assets (Posters, Cast, Ratings).
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 1.  **Clone the repository** (if applicable) or download the files.
 2.  **Install dependencies**:
@@ -40,7 +40,7 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
     streamlit run app.py
     ```
 
-## 📂 Project Structure
+## Project Structure
 
 *   `app.py`: The main Streamlit application with custom UI logic and API integration.
 *   `recommender.py`: Core logic for data finding, processing, and generating the similarity model.
@@ -48,7 +48,7 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
 *   `requirements.txt`: Python dependencies.
 *   `Project_Report.md`: Detailed report of the project architecture and features.
 
-## 👥 Usage
+## Usage
 
 *   Launch the app.
 *   **Select a Movie**: Choose a reference movie from the dropdown menu (e.g., "Avatar").
