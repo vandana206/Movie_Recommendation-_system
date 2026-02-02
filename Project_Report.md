@@ -24,12 +24,18 @@ The system uses the TMDB 5000 Movie Dataset, which includes high-quality metadat
 *   **`app.py`**: Orchestrates the application logic, calling the recommender functions and handling the API requests for posters.
 
 ### 4.2 Frontend (Streamlit)
-*   Provides a responsive, dark-themed UI.
-*   Displays movie cards with:
-    *   **Posters**: Fetched dynamically via API.
-    *   **Cast**: Top actors involved in the movie.
-    *   **Ratings**: Average viewer score.
-    *   **Match %**: Visual indicator of similarity.
+The application offers a rich interactive experience with the following controls:
+
+1.  **Movie Selection**: A searchable dropdown to pick the reference movie.
+2.  **Genre Filter**: Allows users to restrict recommendations to a specific genre (derived from the dataset).
+3.  **Sorting Mechanisms**:
+    *   **Match Confidence**: Default sorting based on the cosine similarity score.
+    *   **High Rating**: Re-ranks the top similar movies by their `vote_average`.
+    *   **Newest Release**: Re-ranks movies by their `release_date`.
+
+**Visual Output**:
+*   **Dynamic Grids**: Movies are displayed in a responsive grid layout.
+*   **Movie Cards**: Each card displays the Poster, Title, Cast, Rating, and Similarity Score.
 
 ## 5. Conclusion
 The Smart Movie Recommender System successfully demonstrates the application of Natural Language Processing and Machine Learning in a user-friendly product. The integration of live API data ensures the content remains engaging and visually appealing.

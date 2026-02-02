@@ -6,11 +6,17 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
 
 ## ✨ Features
 
-*   **Content-Based Filtering**: Accurate recommendations based on movie metadata.
+*   **Smart Recommendations**: tailored movie suggestions using Cosine Similarity.
+*   **Advanced Filtering & Sorting**:
+    *   **Filter by Genre**: Narrow down recommendations to specific genres (e.g., Action, Drama).
+    *   **Sort by Match Confidence**: See the most mathematically similar movies first.
+    *   **Sort by High Rating**: Prioritize critically acclaimed movies.
+    *   **Sort by Newest Release**: Discover the latest films similar to your taste.
 *   **Premium Dark UI**: A professional dark theme with vibrant accents and minimalist design.
-*   **Interactive Interface**: Custom styled dropdowns, buttons, and hover effects.
-*   **Poster Integration**: Fetches real-time high-quality movie posters via the TMDB API.
-*   **Responsive Layout**: Optimized for wide screens with perfect alignment.
+*   **Rich Movie Data**:
+    *   **Live Posters**: High-quality movie posters fetched from TMDB.
+    *   **Cast Info**: See top actors/actresses for every recommendation.
+    *   **Ratings**: View the IMDB/TMDB rating for each film.
 
 ## 🛠 Tech Stack
 
