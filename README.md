@@ -44,7 +44,7 @@ The project involves parsing a public movie dataset (TMDB), extracting rich text
 
 *   `app.py`: The main Streamlit application with custom UI logic and API integration.
 *   `recommender.py`: Core logic for data finding, processing, and generating the similarity model.
-*   `data/` or `*.csv`: Contains the TMDB dataset (`tmdb_5000_movies.csv`).
+*   `data/`: Contains the TMDB dataset (`tmdb_5000_movies.csv`).
 *   `requirements.txt`: Python dependencies.
 *   `Project_Report.md`: Detailed report of the project architecture and features.
 

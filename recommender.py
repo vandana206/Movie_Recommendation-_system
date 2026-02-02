@@ -18,7 +18,7 @@ except LookupError:
 # Load credits data globally
 credits_df = None
 
-def load_credits_data(filepath="tmdb_5000_credits.csv"):
+def load_credits_data(filepath="data/tmdb_5000_credits.csv"):
     """Load the credits CSV with actor/actress information."""
     global credits_df
     try:
@@ -42,7 +42,7 @@ def get_cast_from_credits(movie_id):
         pass
     return ""
 
-def load_data(filepath="tmdb_5000_movies.csv"):
+def load_data(filepath="data/tmdb_5000_movies.csv"):
     """Loads the dataset and handles missing values."""
     df = pd.read_csv(filepath)
     # Fill NaN values with empty strings for text columns
@@ -50,6 +50,7 @@ def load_data(filepath="tmdb_5000_movies.csv"):
     df['genres'] = df['genres'].fillna('[]')
     df['keywords'] = df['keywords'].fillna('[]')
     return df
+
 
 def parse_json_column(json_str):
     """Extracts names from JSON-like columns (genres, keywords)."""
